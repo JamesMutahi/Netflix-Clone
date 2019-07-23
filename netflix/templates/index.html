@@ -1,18 +1,90 @@
-<div id="home">
+{% extends 'layout.html' %}
+{% block content %}
 
-</div>
-<div id="Devices" class="offset">
+<div class="container mt-2">
+	<div class="row">
+		<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+			<div class="sidebar-sticky">
+				<ul class="nav flex-column side-font">
+					<li><a class="navbar-brand col-sm-3 col-md-2 mr-0 text-danger" href="#">NETFLIX</a>
+					</li>
+					<li class="nav-item p-2 mt-5">
+						<a class="nav-link" href="#">
+							<span data-feather="home"></span>
+							PLANS <span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="#">
+							<span data-feather="file"></span>
+							DEVICES
+						</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="#">
+							<span data-feather="shopping-cart"></span>
+							DOWNLOAD
+						</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="#">
+							<span data-feather="bar-chart-2"></span>
+							ACCESSIBILITY
+						</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="#">
+							<span data-feather="layers"></span>
+							FAQs
+						</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="#">
+							<span data-feather="layers"></span>
+							CONTACT US
+						</a>
+					</li>
+				</ul>
 
-</div>
-<div id="Download" class="offset">
+				<div class="mt-5 text-center">
+					<hr>
+					<button class="btn btn-danger" style="width: 100%;">SIGN UP</button>
 
-</div>
-<div id="Accessibility" class="offset">
+				</div>
+				<div class="text-center mt-3 text-dark">
+					<a href="#"><i class="fab fa-instagram fa-3x m-2"></i></a>
+					<a href="#"> <i class="fab fa-twitter-square fa-3x m-2"></i></a>
+					<a href="#"><i class="fab fa-google-plus-square fa-3x m-2"></i></a>
+					<a href="#"><i class="fab fa-facebook-square fa-3x m-2"></i></a>
+				</div>
 
-</div>
-<div id="FAQs" class="offset">
 
-</div>
-<div id="Contact" class="offset">
+			</div>
+		</nav>
 
+		<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+				<h1 class="h2">All of Netflix.
+					Free for 30 days.</h1>
+			</div>
+			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+				<h1 class="h2">Enjoy on your TV.</h1>
+			</div>
+			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+				<h1 class="h2">Download your shows to watch on the go.</h1>
+			</div>
+			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+				<h1 class="h2">Watch everywhere.</h1>
+			</div>
+			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+				<h1 class="h2">Frequently Asked Questions</h1>
+			</div>
+			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+				<h1 class="h2">Contact Us</h1>
+			</div>
+
+
+		</main>
+	</div>
 </div>
+{% endblock %}
