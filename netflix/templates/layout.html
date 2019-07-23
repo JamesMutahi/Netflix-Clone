@@ -1,0 +1,25 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	{% static 'css/bootstrap.css' %}
+	{% static 'css/mdb.css' %}
+	{% static 'css/fixed.css' %}
+	{% static 'css/styles.css' %}
+
+	<title>Netflix Clone</title>
+</head>
+<body>
+{{ block content }}
+
+{{ enblock }}
+{% static 'js/jquery-3.4.1.min.js' %}
+{% static 'js/popper.min.js' %}
+{% static 'bootstrap.js' %}
+{% static 'mdb.js' %}
+</body>
+</html>
