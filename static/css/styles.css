@@ -40,7 +40,7 @@ body {
 }
 
 .sidebar .nav-link {
-  font-weight: 500;
+  font-weight: 900;
   color: #333;
 }
 
@@ -101,4 +101,39 @@ a{
 }
 a:hover{
 	color: red;
+}
+.no-m{
+	margin: 0;
+}
+.test{
+	background-image: url(https://images.pexels.com/photos/1339864/pexels-photo-1339864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 3%;
+}
+.devices{
+	background-image: url(https://images.pexels.com/photos/987586/pexels-photo-987586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	padding: 3%;
+}
+.download{
+	background-image: url(https://cdns.abclocal.go.com/content/wabc/images/cms/113016-wabc-netflix-offline-viewing-example-img.jpg);
+		background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	padding: 3%;
+}
+.access{
+	background-image: url(https://www.muvi.com/wp-content/uploads/2015/05/netflix-globe-repositioned.jpg);
+		background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	padding: 3%;
 }

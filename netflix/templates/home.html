@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block content %}
+{% for movie_item in movies %}
+<p>id: {{ movie_item.id }}</p>
+<p>Title: {{ movie_item.title }}</p>
+<p>Overview: {{ movie_item.overview }}</p>
+<p>Vote Count: {{ movie_item.vote_count }}</p>
+<p>Vote Average: {{ movie_item.vote_average }}</p>
+<img class="img-fluid" src="https://image.tmdb.org/t/p/w500/{{ movie_item.poster_path}}">
+
+
+{% endfor %}
+{% endblock %}
